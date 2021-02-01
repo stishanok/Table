@@ -24,6 +24,7 @@
 td, th {
     padding: 10px;
     word-wrap: break-word;
+    overflow: hidden;
 }
 
 td {
@@ -51,6 +52,7 @@ th p {
 
 .hide-left-border {
     position: relative;
+    overflow: unset;
 }
 
 .hide-left-border:before {
