@@ -31,7 +31,7 @@ td {
 }
 
 th, td:first-child {
-    background: grey;
+    background: steelblue;
     color: white;
 }
 
@@ -43,7 +43,6 @@ th {
 
 th p {
     display: inline-block;
-    transform: rotate(180deg);
 }
 
 th p {
