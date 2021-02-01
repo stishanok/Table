@@ -42,7 +42,8 @@ th {
 }
 
 th p {
-    display: inline-block;
+    display: block;
+    transform: rotate(-180deg);
 }
 
 th p {
