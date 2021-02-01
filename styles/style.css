@@ -1,0 +1,66 @@
+.body-max {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.name-table {
+    text-align: center;
+}
+
+.div-table {
+    overflow: scroll;
+}
+
+.table-course {
+    width: 1400px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.table-course, td, th {
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+td {
+    height: 50px;
+}
+
+th, td:first-child {
+    background: grey;
+    color: white;
+}
+
+th {
+    height: 200px;
+    writing-mode: vertical-rl;
+    overflow: hidden;
+}
+
+th p {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+th p {
+    display: inline-block;
+}
+
+.hide-left-border {
+    position: relative;
+}
+
+.hide-left-border:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    bottom: 0;
+    left: -1px;
+    background: white;
+    z-index: 1;
+}
